@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Expression">
+      <UniqueIdentifier>{f45ab042-26f9-4471-9f20-b384be04a133}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Visitor">
+      <UniqueIdentifier>{f3b9263f-a87e-46af-b9b9-f71b1ce6a5c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Factory">
+      <UniqueIdentifier>{35594807-b36b-4a83-98fd-09957c4bc9c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Parser">
+      <UniqueIdentifier>{ef785e99-93f5-490a-9874-775409ca9731}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Parser">
+      <UniqueIdentifier>{bb90b709-423b-4364-ae41-be76a3488efc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\visitor">
+      <UniqueIdentifier>{98d37d5d-ea3c-4060-917a-7f00c3a71437}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Factor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Add.h">
+      <Filter>Header Files\Expression</Filter>
+    </ClInclude>
+    <ClInclude Include="Divide.h">
+      <Filter>Header Files\Expression</Filter>
+    </ClInclude>
+    <ClInclude Include="Expression.h">
+      <Filter>Header Files\Expression</Filter>
+    </ClInclude>
+    <ClInclude Include="Multiply.h">
+      <Filter>Header Files\Expression</Filter>
+    </ClInclude>
+    <ClInclude Include="Subtract.h">
+      <Filter>Header Files\Expression</Filter>
+    </ClInclude>
+    <ClInclude Include="Copy.h">
+      <Filter>Header Files\Visitor</Filter>
+    </ClInclude>
+    <ClInclude Include="FactorPattern.h">
+      <Filter>Header Files\Visitor</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph.h">
+      <Filter>Header Files\Visitor</Filter>
+    </ClInclude>
+    <ClInclude Include="MockVisitor.h">
+      <Filter>Header Files\Visitor</Filter>
+    </ClInclude>
+    <ClInclude Include="Pattern.h">
+      <Filter>Header Files\Visitor</Filter>
+    </ClInclude>
+    <ClInclude Include="Visitor.h">
+      <Filter>Header Files\Visitor</Filter>
+    </ClInclude>
+    <ClInclude Include="Variable.h">
+      <Filter>Header Files\Expression</Filter>
+    </ClInclude>
+    <ClInclude Include="AddFactory.h">
+      <Filter>Header Files\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="SubtractFactory.h">
+      <Filter>Header Files\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiplyFactory.h">
+      <Filter>Header Files\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="DivideFactory.h">
+      <Filter>Header Files\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="VariableFactory.h">
+      <Filter>Header Files\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="FactoryFacade.h">
+      <Filter>Header Files\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Scalar.h">
+      <Filter>Header Files\Expression</Filter>
+    </ClInclude>
+    <ClInclude Include="ScalarFactory.h">
+      <Filter>Header Files\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Rational.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScalarMath.h">
+      <Filter>Header Files\Visitor</Filter>
+    </ClInclude>
+    <ClInclude Include="Sum.h">
+      <Filter>Header Files\Expression</Filter>
+    </ClInclude>
+    <ClInclude Include="Products.h">
+      <Filter>Header Files\Expression</Filter>
+    </ClInclude>
+    <ClInclude Include="SumFactory.h">
+      <Filter>Header Files\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="ProductsFactory.h">
+      <Filter>Header Files\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="SumPattern.h">
+      <Filter>Header Files\Visitor</Filter>
+    </ClInclude>
+    <ClInclude Include="ZeroPattern.h">
+      <Filter>Header Files\Visitor</Filter>
+    </ClInclude>
+    <ClInclude Include="PatternStub.h">
+      <Filter>Header Files\Visitor</Filter>
+    </ClInclude>
+    <ClInclude Include="GenericPattern.h">
+      <Filter>Header Files\Visitor</Filter>
+    </ClInclude>
+    <ClInclude Include="GenricPatternFacade.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser.h">
+      <Filter>Header Files\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="ParserNode.h">
+      <Filter>Header Files\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="ParseExpression.h">
+      <Filter>Header Files\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="ParsedExpression.h">
+      <Filter>Header Files\Parser</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\lib\native\src\gtest\gtest-all.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\lib\native\src\gmock\gmock-all.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Visitor.cpp">
+      <Filter>Source Files\visitor</Filter>
+    </ClCompile>
+    <ClCompile Include="PatternStub.cpp">
+      <Filter>Source Files\visitor</Filter>
+    </ClCompile>
+    <ClCompile Include="ScalarMath.cpp">
+      <Filter>Source Files\visitor</Filter>
+    </ClCompile>
+    <ClCompile Include="SumPattern.cpp">
+      <Filter>Source Files\visitor</Filter>
+    </ClCompile>
+    <ClCompile Include="ZeroPattern.cpp">
+      <Filter>Source Files\visitor</Filter>
+    </ClCompile>
+    <ClCompile Include="Copy.cpp">
+      <Filter>Source Files\visitor</Filter>
+    </ClCompile>
+    <ClCompile Include="Factor.cpp">
+      <Filter>Source Files\visitor</Filter>
+    </ClCompile>
+    <ClCompile Include="FactorPattern.cpp">
+      <Filter>Source Files\visitor</Filter>
+    </ClCompile>
+    <ClCompile Include="GenericPattern.cpp">
+      <Filter>Source Files\visitor</Filter>
+    </ClCompile>
+    <ClCompile Include="GenericPatternFacade.cpp">
+      <Filter>Source Files\visitor</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph.cpp">
+      <Filter>Source Files\visitor</Filter>
+    </ClCompile>
+    <ClCompile Include="Parser.cpp">
+      <Filter>Source Files\Parser</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
